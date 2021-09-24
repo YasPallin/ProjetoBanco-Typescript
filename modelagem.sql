@@ -1,4 +1,5 @@
-use soulBanco;
+CREATE DATABASE soulBanco
+USE soulBanco;
 
 DROP TABLE transacao;
 DROP TABLE login_cliente;
