@@ -1,13 +1,11 @@
 import express from 'express';
 import session from 'express-session';
-// const mongoose = require('mongoose');
 import mysql from 'mysql';
 import passport from 'passport';
 import {Strategy} from 'passport-local'
 import bcrypt from 'bcrypt';
 import path from 'path';
 const __dirname = path.resolve();
-
 declare var next: any;
 
 const app = express();
